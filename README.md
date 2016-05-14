@@ -10,6 +10,7 @@ A simple JavaScript logger that utilizes storage and can send the logs to a serv
       DumpLogsOverride: dumpLogOverride 
     };
     JSLogger.Init(myJsLoggerOptions);
+    JSLogger.MakeLog("INFO", "App.js", "Initialization", JSLogger.JSLog.GetData("App Initialized."), false);
     
 ###Logger Options
 
