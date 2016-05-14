@@ -21,7 +21,7 @@ A simple JavaScript logger that utilizes storage and can send the logs to a serv
 | DumpLogsOverride      | function  | false     | User defined function to override the default log behavior.  For example, if you want to write to the console or do a div |
 
 
- ###Logging on browser exit
+###Logging on browser exit
  
  If you want to log out what is left if the user closes the browser, you can hook into the window.onunload function:
     
