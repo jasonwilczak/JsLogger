@@ -1,0 +1,35 @@
+{
+  "name": "jslogger",
+  "version": "1.0.0",
+  "description": "Simple logging utility that will output to a specified path",
+  "main": "release/jslogger-1.0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonwilczak/JsLogger.git"
+  },
+  "keywords": [
+    "logging",
+    "javascript"
+  ],
+  "author": "Jason Wilczak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonwilczak/JsLogger/issues"
+  },
+  "homepage": "https://github.com/jasonwilczak/JsLogger#readme",
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "gulp": "^3.9.1",
+    "gulp-babel-transpiler": "^0.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-minify": "0.0.11",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-util": "^3.0.7"
+  }
+}
